@@ -1,16 +1,14 @@
 import React from "react";
-import { Button, StyleSheet, Text, View } from "react-native";
+import { Button, StyleSheet,Image, Text, View } from "react-native";
+import Universo from "../assets/universo.jpg";
 
 const Componente1 = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text>Primer Componente</Text>
-      <Button
-        title="Learn More"
-        color="#841584"
-        accessibilityLabel="Learn more about this purple button"
-        onPress={() => navigation.navigate("Componente2")}
-      />
+      <Text>Bienvenido</Text>
+     <Image style={styles.image} source={Universo}>
+
+     </Image>
     </View>
   );
 };
@@ -24,4 +22,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
+  image:{
+    width:"100%",
+    // height:"100%"
+  }
 });

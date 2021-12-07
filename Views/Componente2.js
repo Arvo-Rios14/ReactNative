@@ -5,11 +5,11 @@ import { Button, StyleSheet, Text, View } from "react-native";
 const Componente2 = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text>Segundo Componente</Text>
+      <Text>Picale al boton bro</Text>
       <Button
-        title="Learn More"
+        title="Picame"
         color="#841584"
-        accessibilityLabel="Learn more about this purple button"
+        accessibilityLabel="Picame"
         onPress={() => navigation.navigate("Componente1")}
       />
     </View>
