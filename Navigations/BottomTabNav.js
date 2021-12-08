@@ -29,13 +29,13 @@ export default function BottomTabNav() {
         component={StackNavigator1}
       />
       <Tab.Screen
-        options={{ headerShown: false, tabBarLabel: "Inicio", tabBarIcon:()=>(<Ionicons name={"ios-home"} size={24} color="#0a84ff"/>)}} 
+        options={{ headerShown: false, tabBarLabel: "Contactos", tabBarIcon:()=>(<Ionicons name={"people"} size={24} color="#0a84ff"/>)}} 
         name="TopTabNav"
         component={TopTabNav}
       />
       <Tab.Screen
         name="Componente6"
-        options={{ headerShown: false, tabBarLabel: "Inicio", tabBarIcon:()=>(<Ionicons name={"ios-home"} size={24} color="#0a84ff"/>)}} 
+        options={{ headerShown: false, tabBarLabel: "Fin", tabBarIcon:()=>(<Ionicons name={"flash"} size={24} color="#0a84ff"/>)}} 
         component={Componente6}
       />
     </Tab.Navigator>

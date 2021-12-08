@@ -5,7 +5,7 @@ import { Button, StyleSheet, Text, View } from "react-native";
 const Componente5 = ({ navigation }) => {
   return (
     <View style={styles.container}>
-    <Text style={{fontWeight:"bold",fontSize:"24"}}>Contacto #2</Text>
+    <Text style={{fontWeight:"bold",fontSize:24}}>Contacto #2</Text>
     </View>
   );
 };

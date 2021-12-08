@@ -5,7 +5,7 @@ import angular from "../assets/angular.png";
 const Componente6 = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text style={{ fontWeight: "bold", fontSize: "24" }}>FIN DE LA PRIMERA PRACTICA</Text>
+      <Text style={{ fontWeight: "bold", fontSize: 24 }}>FIN DE LA PRIMERA PRACTICA</Text>
     </View>
   );
 };
