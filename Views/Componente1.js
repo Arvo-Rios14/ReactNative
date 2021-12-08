@@ -5,8 +5,8 @@ import Universo from "../assets/universo.jpg";
 const Componente1 = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text>Bienvenido</Text>
-     <Image style={styles.image} source={Universo}>
+      <Text style={{fontSize:24,color:"black"}}>Bienvenido</Text> 
+     <Image style={styles.image,{marginTop:"10%"}} source={Universo}>
 
      </Image>
     </View>
@@ -18,7 +18,7 @@ export default Componente1;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#ffff",
     alignItems: "center",
     justifyContent: "center",
   },

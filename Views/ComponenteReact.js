@@ -1,16 +1,20 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { Button, StyleSheet, Text, View, Image } from "react-native";
-import angular from "../assets/angular.png";
-const Componente6 = ({ navigation }) => {
+import { Button, StyleSheet, Text, View,Image } from "react-native";
+import react from "../assets/react.png";
+
+const ComponenteReact = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text style={{ fontWeight: "bold", fontSize: "24" }}>FIN DE LA PRIMERA PRACTICA</Text>
+         <Image
+        style={{ resizeMode: "contain", width: "50%" }}
+        source={react}
+      />
     </View>
   );
 };
 
-export default Componente6;
+export default ComponenteReact;
 
 const styles = StyleSheet.create({
   container: {

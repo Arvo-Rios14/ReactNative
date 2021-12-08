@@ -1,15 +1,16 @@
 import React from "react";
 import {createStackNavigator} from '@react-navigation/stack';
-import Componente1 from "../Views/Componente1";
-import Componente2 from "../Views/Componente2";
-
+import ComponenteAngular from "../Views/ComponenteAngular";
+import ComponenteReact from "../Views/ComponenteReact";
+import Componente3 from "../Views/Componente3";
 const Stack = createStackNavigator();
 
 export default function StackNavigator1(){
     return(
-        <Stack.Navigator initialRouteName="Componente2">
-            <Stack.Screen name="Componente1" component={Componente1}/>
-            <Stack.Screen name="Componente2"  component={Componente2}/>
+        <Stack.Navigator initialRouteName="Componente3">
+            <Stack.Screen name="Componente3" options={{headerShown:false,title:"Volver"}} component={Componente3}/>
+            <Stack.Screen name="ComponenteAngular" options={{title:"Angular"}} component={ComponenteAngular}/>
+            <Stack.Screen name="ComponenteReact"   options={{title:"React"}} component={ComponenteReact}/>
         </Stack.Navigator>
     )
 }

@@ -2,21 +2,15 @@ import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { Button, StyleSheet, Text, View } from "react-native";
 
-const Componente2 = ({ navigation }) => {
+const Componente5 = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text>Segundo Componente</Text>
-      <Button
-        title="Learn More"
-        color="#841584"
-        accessibilityLabel="Learn more about this purple button"
-        onPress={() => navigation.navigate("Componente1")}
-      />
+    <Text style={{fontWeight:"bold",fontSize:"24"}}>Contacto #2</Text>
     </View>
   );
 };
 
-export default Componente2;
+export default Componente5;
 
 const styles = StyleSheet.create({
   container: {
